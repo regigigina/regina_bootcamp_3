@@ -1,0 +1,54 @@
+*{
+    border-radius: 0px;
+}
+
+body{    
+    height: 100vh;
+    background-color: rgb(91, 81, 99);
+}
+
+.card{  
+    position: fixed;  
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    background-color: rgb(32, 32, 32);
+}
+
+.card-body{
+    margin-top: auto;
+}
+
+h1{
+    margin-bottom: 25px;
+    font-weight: lighter;
+    color: white;
+}
+
+label{
+    font-size: small;
+    color: white;
+}
+
+button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+a{
+    font-size: small;
+    color: rgb(255, 208, 0);
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+button{
+    color: white;
+    background-color: rgb(255, 40, 104);
+}

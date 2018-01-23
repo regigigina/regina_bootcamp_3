@@ -1,0 +1,31 @@
+<body>
+  <div class="card">
+    <div class="card-body">
+      <div style="text-align: center;">
+        <h1>LOGIN FORM</h1>      
+      </div>
+      <form #f="ngForm" (ngSubmit)="Login(f)">
+        <div class="form-group">
+          <label>USER NAME OR EMAIL</label>
+          <input type="text" class="form-control" name="identity" ngModel>
+        </div>
+        <div class="form-group">
+          <label>PASSWORD</label>
+          <input type="text" class="form-control" name="password" ngModel>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="col-md-12 btn">LOG IN</button>
+        </div>
+        <div class="d-flex flex-row">
+          <div class="p-2 form-group">
+            <input type="checkbox" name="remember" value="remember" ngModel>
+            <label>Remember me</label>
+          </div>
+          <div class="p-2 ml-auto form-group">
+            <a href="#">Forgot password?</a>
+          </div>
+        </div> 
+      </form>
+    </div>
+  </div>
+</body>
